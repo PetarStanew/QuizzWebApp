@@ -6,6 +6,11 @@
     Random rnd = new Random();
     int r = rnd.Next(Model.Choices.Count);
 }
+
+@Styles.Render("~/Content/css")
+
+
+
 <div class="container">
     <div class="Quiz">
         @if (Model != null)
